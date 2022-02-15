@@ -1,0 +1,53 @@
+.navbar{
+    display: flex; /*한줄에 나란히*/
+    justify-content: space-between;
+    align-items: center;
+    background-color:hsla(240, 96%, 51%, 0.877);
+    padding: 8px 12px;
+}
+a{
+    list-style: none;
+    text-decoration:none;
+    color: whitesmoke;
+}
+.navbar_logo{
+    font-size: 24px;
+}
+span{
+    font-size: 12px;
+}
+.navbar_logo i{
+    color:whitesmoke;
+}
+.navbar_menu{
+    display:flex;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    position :relative;
+    top:1em;
+    right:30em;
+}
+.navbar_menu li{
+    padding: 8px 12px;
+}
+.navbar_menu li:hover{
+    color: hsla(59, 98%, 59%, 0.87);
+    
+}
+.navbar_fixed{
+    position: fixed;
+    top: 0.1em;
+    right: 1em;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+.navbar_fixed li{
+    padding: 8px 12px;
+}
+.navbar_fixed li:hover{
+    text-decoration: underline; color: azure;
+    
+}
